@@ -1,0 +1,106 @@
+.login-div {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url("../../../../../../assets/img/login-bg.png");
+    background-size: 100% 100%;
+    display: flex;
+}
+
+.login-inner-sec {
+    padding: 0%;
+    height: 75%;
+    width: 70%;
+    background: #bccfdf;
+}
+
+.login-inner-sec-left-part {
+    background: url("../../../../../../assets/img/login-left-sec-img.png");
+    background-size: 100% 100%;
+}
+
+input[type="text"] {
+    margin: 1rem auto;
+    width: -webkit-fill-available;
+    padding: 10px 20px;
+    /*border-color: #0000006b;
+    border-radius: 5px;*/
+}
+
+input[type="password"] {
+    margin: 1rem auto;
+    width: -webkit-fill-available;
+    padding: 10px 20px;
+    /*border-color: #0000006b;
+    border-radius: 5px;*/
+}
+
+
+
+.form-control:focus {
+    // border: 1px solid #927aed;
+    border-color: #927aed !important;
+}
+
+.error, .form-control:focus.error {
+    border-color: #ff0000 !important;
+}
+
+.error::placeholder {
+    color: #ff0000 !important;
+}
+
+.btn.login-btn {
+    margin: 1rem auto;
+    padding: 8px 20px;
+    color: #ffffffc2;
+    background-color: #014da1;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    width: -webkit-fill-available;
+}
+
+.btn.login-btn:disabled {
+    color: #ffffff6b;
+    background-color: #014da16b;
+}
+
+.forgot-password {
+    color: #014da1;
+    text-decoration: none;
+}
+
+.alertMessage {
+    transition: all 0.5s ease;
+    width: 100%;
+    margin: 0 auto 5px;
+}
+.alert-success {
+    padding: 10px 10px;
+    color: #fff;
+    width: 100%;
+    background-color: #615065;
+    border-radius: 0.25rem;
+    transform: translate(0%, 0%);
+    transition: all 0.5s ease;
+}
+
+
+
+.form-group {
+    position: relative;
+}
+
+.form-group mat-icon {
+    position: absolute;
+    top: 13px;
+    color: #000;
+    left: 88%;
+}
+
+.form-group input {
+    padding: 10px 50px 10px 20px;
+}
+
